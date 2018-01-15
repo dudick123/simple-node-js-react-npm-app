@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'sh \'./jenkins/scripts/diag.sh\''
+        sh '\'./jenkins/scripts/diag.sh\''
       }
     }
   }
